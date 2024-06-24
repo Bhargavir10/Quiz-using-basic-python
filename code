@@ -1,0 +1,93 @@
+print ("WEL-COME TO QUIZ! :) Nothing is impossible, the word itself says I am possible\n\n\n")                  
+gaming=input ("Do you want to play?(only lowercase letters are allowed)\n")       
+if gaming !='yes':                                
+    quit ()
+    print ("Okay! Let’s start the game :)\n\n")
+score=0     #initial score
+
+Q1=input ("1. python in Telugu? (Ans: Koṇḍaciluva (is it correct i.e., type yes else no) \n ")  
+answer=Q1
+if answer == "yes":
+    print("CORRECT\n")
+    score+=1
+else:
+    print("IN-CORRECT")
+
+Q2=input ("2. What will you actually find at the end of every rainbow? (Single letter) \n ")
+answer=Q2
+if answer == "w":
+    print("CORRECT\n")
+    score+=1
+else:
+    print("IN-CORRECT")
+
+Q3=input ("3. What belongs to you but gets used by everyone else more than you? (Think) \n")
+answer=Q3
+if answer == "name":
+    print("CORRECT\n")
+    score+=1
+else:
+    print("IN-CORRECT")
+
+Q4=input ("4. What goes up as soon as the rain comes down? (**) \n")
+answer=Q4
+if answer == "umbrella":
+    print("CORRECT\n")
+    score+=1
+else:
+    print("IN-CORRECT")
+    
+Q5=input ("5. Which room has no walls? (Think)\n ")
+answer=Q5
+if answer == "mushroom":
+    print("CORRECT\n")
+    score+=1
+else:
+    print("IN-CORRECT")
+    
+Q6=input ("6. Where is an ocean with no water? (_ap) \n ")
+answer=Q6
+if answer == "map":
+    print("CORRECT\n")
+    score+=1
+else:
+    print("IN-CORRECT")
+    
+Q7=input ("7. How many rings make up the Olympic Games Symbol? (Number)\n ")
+answer=Q7
+if answer == "5":
+    print("CORRECT\n")
+    score+=1
+else:
+    print("IN-CORRECT")   
+    
+Q8=input ("8. The water in the ocean is salty? (yes/no) \n ")
+answer=Q8
+if answer == "yes":
+    print("CORRECT\n")
+    score+=1
+else:
+    print("IN-CORRECT")  
+    
+Q9=input ("9. How many sides are there in a circle? (Number) \n ")
+answer=Q9
+if answer == "0":
+    print("CORRECT\n")
+    score+=1
+else:
+    print("IN-CORRECT")  
+    
+Q10=input ("10. There are 5 apples in the bag. How many do you have if you take away three apples? (number)\n ")
+answer=Q10
+if answer == "2":
+    print("CORRECT\n")
+    score+=1
+else:
+    print("IN-CORRECT") 
+
+print ("You got",str(score),"questions correct :)\n")
+print ("You got",str((score/10)*100),"%\n\n")
+print ("\t\t (: Thank you for Playing:)")
+
+print ("\t\t\t\t\t\t Project by R.Bhargavi")
+
