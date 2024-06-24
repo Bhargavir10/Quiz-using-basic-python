@@ -10,6 +10,8 @@ EXPLAINATION: -
 •	If and only if player answer is correct i.e., only score will be incremented else no change in score (no-negative percentage).
 •	After completing all the 10 questions it displays how many questions do you attempt correctly out of 10 and also display over-all percentage. 
 •	Final statement ends with thanks greeting.
+
+
 EXAMPLE MODEL: -
 ![image](https://github.com/Bhargavir10/Quiz-using-basic-python/assets/162129694/1fa1f4a8-59c9-4b33-b81b-65d3ff6b1395)
 
